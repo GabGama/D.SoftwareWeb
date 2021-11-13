@@ -1,0 +1,59 @@
+.topo {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.topo h1 {
+    padding-top: 17px;
+    font-size: 30px;
+    margin-top: -15;
+}
+
+.topo p {
+    font-size: 15px;
+    color: rgb(75, 75, 75);
+}
+
+.container {
+    font-family: Roboto, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px auto 0 30px;
+    width: 100%;
+}
+
+.container h5 {
+    font-size: 20px;
+}
+
+.container p {
+    color: rgb(75, 75, 75);
+    font-size: 17px;
+}
+
+.container .servicos {
+    padding-left: 200px;
+    padding-right: 80px
+}
+
+.container .servicos .item .circulo {
+    background-color: dimgray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.container .servicos .item .circulo .icon {
+    width: 40px;
+    height: 40px;
+}
+
+.container .empresa img {
+    width: auto;
+    height: auto;
+    max-width: 542px;
+    max-height: 300px;
+}
+
+.container .servicos .item .circulo {}
